@@ -1,0 +1,31 @@
+# 紧凑模式
+add_newline = false
+# Wait 32 milliseconds for starship to check files under the current directory.
+scan_timeout = 32
+# 提示符格式
+format = """\
+[#](dimmed italic) $username \
+[in](dimmed italic) $directory \
+$git_branch\
+$line_break\
+$character\
+"""
+[username]
+format = "[$user]($style)"
+style_user = "cyan"
+style_root = "bold red"
+show_always = true
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style)"
+style = "bold blue"
+truncation_length = 4
+read_only = "[RO]"
+read_only_style = "bold red"
+[git_branch]
+format = "$symbol [$branch]($style) "
+style = "bold purple"
+symbol = "[on](dimmed italic)"
+[character]
+success_symbol = "[%%](bold cyan)"
+error_symbol = "[%%](bold red)"
+vicmd_symbol = "[%%](dimmed)"

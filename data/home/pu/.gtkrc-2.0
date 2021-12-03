@@ -1,0 +1,10 @@
+gtk-can-change-accels = 1
+gtk-icon-theme-name="Gruvbox-Dark"
+gtk-theme-name="Gruvbox-Dark"
+gtk-application-prefer-dark-theme=1
+style "user-font"
+{
+        font_name="JetBrainsMono Nerd Font 13"
+}
+widget_class "*" style "user-font"
+gtk-font-name="JetBrainsMono Nerd Font 13"

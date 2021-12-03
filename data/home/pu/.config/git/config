@@ -1,0 +1,13 @@
+[user]
+   email = pu.mb@qq.com
+   name = zpyg
+[init]
+   defaultBranch = main
+; [url "https://gh.api.99988866.xyz/https://github.com/"]
+;     insteadof = https://github.com/
+[http]
+    proxy = socks5://127.0.0.1:7891
+[https]
+    roxy = socks5://127.0.0.1:7891
+[core]
+	editor = nvim

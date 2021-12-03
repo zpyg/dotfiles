@@ -1,0 +1,24 @@
+! 查看完整键表: xmodmap -pke
+! 查看特殊键: xmodmap
+
+! 键码:物理:映射
+
+! # 交换 Esc 与 Caps_Lock
+clear lock
+! 9:Esc:Caps_Lock
+keycode   9 = Caps_Lock NoSymbol Caps_Lock
+! 66:Caps_Lock:Esc
+keycode  66 = Escape NoSymbol Escape
+add lock = Caps_Lock
+
+! # 交换 Alt 与 Super_L
+clear mod1
+clear mod4
+! 64:Alt_L:Super_L
+keycode  64 = Super_L NoSymbol Super_L
+! 108:Alt_R:Super_L
+keycode 108 = Super_L NoSymbol Super_L
+! 133:Super_L:Alt_L
+keycode 133 = Alt_L Meta_L Alt_L Meta_L
+add mod1 = Alt_L
+add mod4 = Super_L
