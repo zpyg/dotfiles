@@ -16,7 +16,7 @@ fi
 # 剪切板
 clipit &
 # 邮件
-birdtray &
+# 待定 浏览器/deltachat
 # 音量
 volumeicon &
 

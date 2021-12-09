@@ -36,9 +36,9 @@
 /home/pu/.config/fcitx5/conf/chttrans.conf|pu
 /home/pu/.config/fcitx5/conf/notificationitem.conf|pu
 /home/pu/.config/fcitx5/conf/fullwidth.conf|pu
-/home/pu/.config/fcitx5/conf/cached_layouts|pu
 /home/pu/.config/fcitx5/conf/pinyin.conf|pu
 /home/pu/.config/fcitx5/conf/punctuation.conf|pu
+/home/pu/.config/fcitx5/conf/cached_layouts|pu
 /home/pu/.config/flameshot/flameshot.ini|pu
 /home/pu/.config/fontconfig/fonts.conf|pu
 /home/pu/.config/gtk-3.0/settings.ini|pu
@@ -78,3 +78,4 @@
 /home/pu/.config/nnn/sessions|pu
 /home/pu/.config/nnn/mounts|pu
 /home/pu/.config/nnn/plugins|pu
+/home/pu/.config/nnn/.lastd|pu

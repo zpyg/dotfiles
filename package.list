@@ -160,7 +160,6 @@ gnupg
 gnutls
 gobject-introspection-runtime
 google-glog
-gopls
 gpgme
 gpick
 gpm
@@ -529,6 +528,7 @@ nspr
 nss
 ntfs-3g
 nvim-packer-git
+obs-studio
 ocl-icd
 oniguruma
 openal
@@ -791,9 +791,7 @@ shaderc
 shadow
 shared-mime-info
 shfmt
-shotcut
 simple-scan
-simplescreenrecorder
 slang
 slock
 slop

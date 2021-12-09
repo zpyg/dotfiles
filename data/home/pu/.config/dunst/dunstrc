@@ -23,12 +23,12 @@ stack_duplicates = false
 hide_duplicate_count = yes
 show_indicators = no
 icon_position = left
-icon_path = /home/pu/.icons/oomox-gruvbox-theme/48x48/status/:/home/pu/.icons/oomox-48x48/devices/:/usr/share/icons/Numix-Circle/48x48/apps/
+icon_path = /home/pu/.icons/Gruvbox-Dark/48x48/status/:/home/pu/.icons/Gruvbox-Dark/48x48/devices/:/home/pu/.icons/Gruvbox-Dark/48x48/apps/
 max_icon_size = 48
 sticky_history = yes
 history_length = 20
 dmenu = /usr/bin/dmenu -p dunst:
-browser = /usr/bin/firefox -new-tab
+browser = /usr/bin/microsoft-edge-stable
 always_run_script = true
 title = Dunst
 class = Dunst
@@ -41,13 +41,13 @@ class = Dunst
 
 [urgency_low]
 timeout = 2
-background = "#282828"
+background = "#1d2021"
 foreground = "#ebdbb2"
 frame_color = "#ebdbb2"
 
 [urgency_normal]
 timeout = 5
-background = "#282828"
+background = "#1d2021"
 foreground = "#fbf1c7"
 frame_color = "#fbf1c7"
 
