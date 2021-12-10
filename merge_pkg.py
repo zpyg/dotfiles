@@ -14,9 +14,11 @@ removed_pkg = local_pkg - remote_pkg
 print(f"远程增加 {added_pkg}")
 print(f"远程移除 {removed_pkg}")
 for pkg in added_pkg:
+    print("> yay", "-S", pkg)
     run(["yay", "-S", pkg])
     # --needed
 for pkg in removed_pkg:
+    print("> yay", "-Rnsdd", pkg)
     run(["yay", "-Rnsdd", pkg])
     # -Rns
     # -Rnsdd
