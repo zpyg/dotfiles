@@ -67,6 +67,7 @@ alias md='mkdir -p'
 alias rm='trash'
 alias rd='trash -rf'
 # python -m http.server -d /usr/share/yacd 3000
+# aliyunpan
 # ffmpeg -crf 28 -i ... x.mp4
 # trash-empty -f --all-users
 # program
