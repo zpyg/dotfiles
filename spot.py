@@ -52,6 +52,7 @@ def restore():
         src = Path(f"{DATA_DIR}/{dst}")
         copy(src, dst)
         chown(dst, owner)
+        chown(dst.parent, owner)
 
 if __name__ == "__main__":
     from sys import argv
