@@ -73,7 +73,6 @@ dbus
 dbus-glib
 dbus-python
 dconf
-deltachat-desktop-git
 desktop-file-utils
 device-mapper
 dhclient
@@ -768,7 +767,6 @@ ruby-term-ansicolor
 ruby-tins
 rubygems
 run-parts
-rustup
 samsung-unified-driver
 samsung-unified-driver-common
 samsung-unified-driver-printer

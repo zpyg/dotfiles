@@ -57,7 +57,7 @@ end
 time([[Luarocks path setup]], false)
 time([[try_loadstring definition]], true)
 local function try_loadstring(s, component, name)
-  local success, result = pcall(loadstring(s))
+  local success, result = pcall(loadstring(s), name, _G.packer_plugins[name])
   if not success then
     vim.schedule(function()
       vim.api.nvim_notify('packer.nvim: Error running ' .. component .. ' for ' .. name .. ': ' .. result, vim.log.levels.ERROR, {})
@@ -69,6 +69,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["coq.artifacts"] = {
+    loaded = true,
+    path = "/home/pu/.local/share/nvim/site/pack/packer/start/coq.artifacts",
+    url = "https://github.com/ms-jpq/coq.artifacts"
+  },
+  coq_nvim = {
+    loaded = true,
+    path = "/home/pu/.local/share/nvim/site/pack/packer/start/coq_nvim",
+    url = "https://github.com/ms-jpq/coq_nvim"
+  },
   ["gruvbox.nvim"] = {
     config = { "\27LJ\1\2c\0\0\2\0\4\0\t4\0\0\0007\0\1\0%\1\2\0>\0\2\0014\0\0\0007\0\1\0%\1\3\0>\0\2\1G\0\1\0!highlight! Normal guibg=NONE\23colorschem gruvbox\bcmd\bvim\0" },
     loaded = true,
@@ -104,6 +114,12 @@ _G.packer_plugins = {
     path = "/home/pu/.local/share/nvim/site/pack/packer/opt/nnn.nvim",
     url = "https://github.com/luukvbaal/nnn.nvim"
   },
+  ["nvim-lspconfig"] = {
+    config = { "\27LJ\1\2T\0\0\2\0\4\0\b4\0\0\0%\1\1\0>\0\2\0027\0\2\0007\0\3\0002\1\0\0>\0\2\1G\0\1\0\nsetup\25jedi_language_server\14lspconfig\frequire\0" },
+    loaded = true,
+    path = "/home/pu/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-treesitter"] = {
     config = { "\27LJ\1\2ß\1\0\0\4\0\t\0\r4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\5\0003\2\3\0002\3\0\0:\3\4\2:\2\6\0013\2\a\0:\2\b\1>\0\2\1G\0\1\0\21ensure_installed\1\15\0\0\6c\bcpp\vpython\tbash\blua\bvim\nregex\15javascript\bcss\thtml\njson5\tyaml\ttoml\tjson\14highlight\1\0\0\fdisable\1\0\1\venable\2\nsetup\28nvim-treesitter.configs\frequire\0" },
     loaded = true,
@@ -121,6 +137,10 @@ time([[Config for gruvbox.nvim]], false)
 time([[Config for nvim-treesitter]], true)
 try_loadstring("\27LJ\1\2ß\1\0\0\4\0\t\0\r4\0\0\0%\1\1\0>\0\2\0027\0\2\0003\1\5\0003\2\3\0002\3\0\0:\3\4\2:\2\6\0013\2\a\0:\2\b\1>\0\2\1G\0\1\0\21ensure_installed\1\15\0\0\6c\bcpp\vpython\tbash\blua\bvim\nregex\15javascript\bcss\thtml\njson5\tyaml\ttoml\tjson\14highlight\1\0\0\fdisable\1\0\1\venable\2\nsetup\28nvim-treesitter.configs\frequire\0", "config", "nvim-treesitter")
 time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+try_loadstring("\27LJ\1\2T\0\0\2\0\4\0\b4\0\0\0%\1\1\0>\0\2\0027\0\2\0007\0\3\0002\1\0\0>\0\2\1G\0\1\0\nsetup\25jedi_language_server\14lspconfig\frequire\0", "config", "nvim-lspconfig")
+time([[Config for nvim-lspconfig]], false)
 
 -- Command lazy-loads
 time([[Defining lazy-load commands]], true)

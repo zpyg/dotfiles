@@ -19,6 +19,17 @@ require("packer").startup(function(use)
 		config = function()
 			require("nnn").setup()
 		end,
-        cmd = {"NnnExplorer", "NnnPicker"}
+		cmd = { "NnnExplorer", "NnnPicker" },
+	})
+	use({
+		"ms-jpq/coq_nvim",
+		branch = "coq"
+	})
+	use({ "ms-jpq/coq.artifacts", branch = "artifacts" })
+	use({
+		"neovim/nvim-lspconfig",
+		config = function()
+			require("lspconfig").jedi_language_server.setup({})
+		end,
 	})
 end)

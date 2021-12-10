@@ -47,15 +47,11 @@
 /home/pu/.config/lazygit/state.yml|pu
 /home/pu/.config/libfm/libfm.conf|pu
 /home/pu/.config/neofetch/config.conf|pu
-/home/pu/.config/nvim/.ccls-cache|pu
 /home/pu/.config/nvim/plugin|pu
 /home/pu/.config/nvim/ginit.vim|pu
 /home/pu/.config/nvim/_init.lua|pu
 /home/pu/.config/nvim/lua|pu
 /home/pu/.config/nvim/init.lua|pu
-/home/pu/.config/nvim/.ccls-cache/@home@pu@.config@nvim|pu
-/home/pu/.config/nvim/.ccls-cache/@home@pu@.config@nvim/a.c|root
-/home/pu/.config/nvim/.ccls-cache/@home@pu@.config@nvim/a.c.blob|root
 /home/pu/.config/nvim/plugin/fcitx5.vim|pu
 /home/pu/.config/nvim/plugin/options.vim|pu
 /home/pu/.config/nvim/plugin/keymap.lua|pu
@@ -68,6 +64,7 @@
 /home/pu/.config/pip/pip.conf|pu
 /home/pu/.config/pypoetry/config.toml|pu
 /home/pu/.config/qt5ct/colors|pu
+/home/pu/.config/qt5ct/qss|pu
 /home/pu/.config/qt5ct/qt5ct.conf|pu
 /home/pu/.config/qt5ct/colors/Gruvbox-Dark.conf|pu
 /home/pu/.config/volumeicon/volumeicon|pu
@@ -78,4 +75,3 @@
 /home/pu/.config/nnn/sessions|pu
 /home/pu/.config/nnn/mounts|pu
 /home/pu/.config/nnn/plugins|pu
-/home/pu/.config/nnn/.lastd|pu
