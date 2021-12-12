@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spot"
+version = "0.0.1"
+description = "Pu's simple dotfile bot."
+authors = ["zpyg <pu.mb@qq.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dynaconf = "^3.1.7"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.30.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
